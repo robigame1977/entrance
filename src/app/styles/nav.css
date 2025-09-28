@@ -1,0 +1,60 @@
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.119);
+  backdrop-filter: blur(50px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+nav h1 {
+  color: white;
+  font-size: 28px;
+}
+
+nav ol {
+  display: flex;
+  flex-direction: row;
+  margin: 0 25rem;
+}
+
+nav ol li {
+  font-size: 18px;
+  color: rgb(195, 195, 195);
+  padding: 1rem 2rem;
+  transition: 0.2s;
+}
+
+nav ol li:hover {
+  color:aliceblue;
+}
+
+nav ol li a {
+  transition: 0.3s;
+}
+
+nav ol li a.sel_item {
+  font-weight: 600;
+}
+
+nav ol li a.sel_item:hover {
+  color:gray;
+}
+
+nav Button {
+  background-color: rgb(255, 255, 255);
+  border: transparent;
+  padding: 1.2rem 2.6rem;
+  transition: 0.3s;
+}
+
+nav Button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: black dashed 1px;
+  padding: 1.2rem 2.6rem;
+  color: white;
+}

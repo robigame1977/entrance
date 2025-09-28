@@ -1,0 +1,61 @@
+.card {
+  margin: 2rem auto 0 auto;
+  width: 28rem;
+  height: 25rem;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.114);
+  backdrop-filter: blur(50px);
+  z-index: 9;
+}
+
+.card_header {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.145);
+}
+
+.card_h1 {
+  font-size: 42px;
+  color: white;
+}
+
+.card_h2 a {
+  color: rgba(152, 255, 255, 0.693);
+}
+
+.card_p {
+  height: 60%;
+  color:white;
+}
+
+.buttons {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.login_btn {
+  width: 47%;
+  background-color: #5439cc;
+  border: transparent;
+}
+
+.login_btn:hover {
+  color: white;
+  background-color: #5439cc95;
+}
+
+.req_btn {
+  margin-left: 5%;
+  width: 47%;
+  background-color: #5439cc00;
+}
+
+.req_btn:hover {
+  background-color: #fdfdfd;
+}
+
+.card_f {
+  color: white;
+}
